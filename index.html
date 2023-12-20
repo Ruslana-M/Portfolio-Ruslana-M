@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="./data.json"></script>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <ul class="navBar">
+      <li><ion-icon name="person-outline"></ion-icon> <a href="#aboutme">About me</a></li>
+      <li><ion-icon name="briefcase-outline"></ion-icon> <a href="#Experience">Experience</a></li>
+      <li><ion-icon name="file-tray-full-outline"></ion-icon> <a href="#Projects"> Projects </a></li>
+      <li><ion-icon name="rocket-outline"></ion-icon>  <a href=" #Testimonials">Recomendations</a> </li>
+      <li><ion-icon name="mail-outline"></ion-icon> <a href="#Contact"></a>  Contact</li>
+    </ul>
+
+    <div class="page-content">
+
+      <section id="aboutme" class="introduction">
+        <div class="intro-main">
+          <img src="ruslana.jpg" alt="Ruslana Photo" class="me">
+          <div class="intro-text">
+            <p class="section-heading">About Me</p>
+            <p>Frontend Developer | Scrum Master | UX Designer</p>
+            <p class="intro-text-content">
+              I like making websites look good, organizing projects that have social impact, 
+              and designing things that people find easy to use. 
+              Besides I like yoga, mountains and reading.
+              Let's work together to make life meaningful !
+            </p>
+          </div>
+        </div>
+        <div  class="typewriter-text">Hi I'm Ruslana.</div>
+      </section>
+  
+      <section id="Experience"  class="experience">
+        <p class="section-heading">My Experience</p>
+  
+      </section>
+
+      <section id="Projects" class="projects">
+        <p class="section-heading">My last Projects</p>
+        
+        <div class="cards-container">
+        <div class="project-card">
+          <h2>Calm Hub App</h2>
+          <p>
+            <ion-icon name="pricetag-outline"size="small"></ion-icon>HTML, 
+            <ion-icon name="pricetag-outline" size="small"></ion-icon>CSS, 
+            <ion-icon name="pricetag-outline" size="small"></ion-icon>ReactJS</p>
+          <p class="description">Yoga App that help to create your own yoga practice, using a large selection of yoga poses</p>
+          <a href="https://yoga-app-redischool-final-project.netlify.app" target="_blank"> <button><ion-icon name="logo-github"></ion-icon> Discover More</button></a>
+        </div>
+
+        <div class="project-card">
+          <h2>Hotel Website</h2>
+          <p>
+            <ion-icon name="pricetag-outline"size="small"></ion-icon>HTML, 
+            <ion-icon name="pricetag-outline" size="small"></ion-icon>CSS, 
+            <ion-icon name="pricetag-outline" size="small"></ion-icon>JS</p>
+          <p class="description">Hotel welcome page</p>
+          <a href="https://github.com/Ruslana-M/Team_work_Holiday" target="_blank"> <button><ion-icon name="logo-github"></ion-icon> Discover More</button></a>
+        </div>
+        <div class="project-card">
+          <h2>Weather selector</h2>
+          <p>
+            <ion-icon name="pricetag-outline"size="small"></ion-icon>HTML, 
+            <ion-icon name="pricetag-outline" size="small"></ion-icon>CSS, 
+            <ion-icon name="pricetag-outline" size="small"></ion-icon>JS</p>
+          <p class="description">Serching the weather temperature in your city using openweather API</p>
+          <a href="https://github.com/Ruslana-M/weather-search" target="_blank"> <button><ion-icon name="logo-github"></ion-icon> Discover More</button></a>
+        </div>
+
+        <div class="project-card">
+          <h2>Website</h2>
+          <p>
+            <ion-icon name="pricetag-outline"size="small"></ion-icon>HTML, 
+            <ion-icon name="pricetag-outline" size="small"></ion-icon>CSS, 
+            <ion-icon name="pricetag-outline" size="small"></ion-icon>JS</p>
+          <p>Description</p>
+          <a href="https://github.com/Ruslana-M/Team_work_Holiday" target="_blank"> <button><ion-icon name="logo-github"></ion-icon> Discover More</button></a>
+        </div>
+
+      </div>
+
+      </section>
+      <section id="Testimonials" class="testimonials">
+        <p class="section-heading">Testimonials</p>
+
+        <div class="testimonial-card">
+          <h3><a href="https://www.instagram.com/p/CzB28LuoLi4/?utm_source=ig_web_copy_link" target="_blank">Marion, Way Yoga</a></h3>
+          <p class="testimonial-quote">Thanks to Ruslana, a vital instructor in our 'Yoga for Ukraine' project. Her dedication contributes to the success of Ukrainian graduates in yoga teacher training, empowering fellow Ukrainians.</p>
+        </div>
+  
+      </section>
+      <section id="Contact" class="contact">
+        <p class="section-heading">Contact</p>
+        <p>Tel: +49 151 543 151 39</p>
+        <h3><a href="https://www.linkedin.com/in/ruslana-mysholovka-stay-with-ukraine-1605bb141/" target="_blank"> <ion-icon name="logo-linkedin"></ion-icon</a></h3>
+        <h3><a href="https://github.com/Ruslana-M" target="_blank"></a><ion-icon name="logo-github"></ion-icon</h3>
+      </section>
+    </div>
+
+
+    <!-- script tags -->
+    <script type="module" src="/portfolio.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
