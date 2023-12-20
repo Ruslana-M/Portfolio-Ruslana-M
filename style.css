@@ -112,6 +112,9 @@ section{
   border-radius: 60px;
 }
 
+.experience{
+  font-size: 20px;
+}
 .cards-container{
   display: flex;
   justify-content: space-around;
