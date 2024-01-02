@@ -102,8 +102,8 @@ function App() {
             <ul className='list-disc  pl-4'>
               <li>Certified Scrum Master (PSM II) </li>
               <li>Scrum Product Owner (PSPO I)</li>
-              <li>Front-End Developer</li>
-              <li>and by heart - Yoga Teacher (AYA) </li>
+              <li>Front-End Developer (ReDi School Munich)</li>
+              <li>and at my heart I am a Yoga Teacher (AYA) </li>
             </ul>
           </p>
           <p className='pt-2'>
@@ -154,13 +154,10 @@ function App() {
 
             <div className="project-card">
               <h2 className='font-bold'>Yoga for Ukraine Project</h2>
-              <p>
-                <ion-icon name="pricetag-outline" size="small"></ion-icon>HTML,
-                <ion-icon name="pricetag-outline" size="small"></ion-icon>CSS,
-                <ion-icon name="pricetag-outline" size="small"></ion-icon>JS</p>
-              <p className="description">Participating in the project aimed to support Ukrainian refugees in Germany
-                through organizing certified Yoga Teacher courses for them. </p>
-              <a href="https://www.instagram.com/p/CzB28LuoLi4/?utm_source=ig_web_copy_link" target="_blank"> <button className="btn"><ion-icon name="logo-github"></ion-icon> Discover More</button></a>
+             
+              <p className="description">
+                Participate in oganizing certified Yoga Teacher courses for refugees in Germany. </p>
+              <a href="https://www.instagram.com/p/CzB28LuoLi4/?utm_source=ig_web_copy_link" target="_blank"> <button className="btn"><ion-icon name="logo-instagram"></ion-icon> Discover More</button></a>
             </div>
 
           </div>
