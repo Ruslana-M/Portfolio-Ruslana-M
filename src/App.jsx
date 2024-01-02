@@ -1,6 +1,6 @@
-// src/App.js
+
 import React, { useState } from 'react';
-import './App.css'; // Import Tailwind CSS styles
+import './App.css'; 
 import profilePhoto from './ruslana.jpg'
 
 const navigation = [
@@ -82,7 +82,7 @@ function App() {
               <p>  Scrum Master | Frontend - Developer | Yoga Teacher</p>
               <p className="text-[18] pt-4">
                 I like to help people to feel meaningful, organize projects that have social impact,
-                and designing things that people find easy to use.
+                and designe things that people find easy to use.
                 <br />Besides I like yoga, mountains and reading. <br />Let me know if we could work on some valuable projects together.
               </p>
             </div>
@@ -109,7 +109,7 @@ function App() {
           <p className='pt-2'>
             <b >My Values:</b>
             <ul className='list-disc pl-4'>
-              <li>  willingness to hear and respect other people, cultures, ideas; </li>
+              <li>  respect other people, cultures, ideas; </li>
               <li>  readiness to share knowledge;</li>
               <li>  meaningful work and meaningful relationships </li>
             </ul>
