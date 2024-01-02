@@ -96,7 +96,7 @@ function App() {
             companies and enjoy working with people from different cultures. My foreign background has helped me to understand people
             better and have a new perspective on the situation.</p>
           <p>During the digital transformation from a legacy software to a new SAP application
-            I guided my team through this change process using agile best practices like Kanban, Lean methodology and Scrum.</p>
+            I guided my team through this change process using agile best practices like Kanban, Lean methodology and Scrum. Recently I have finished a Frontend Developer Bootcamp in Munich practicing coding and agile  on real Projects. </p>
           <p className='pt-2'>
             <b >My Achievements:</b>
             <ul className='list-disc  pl-4'>
