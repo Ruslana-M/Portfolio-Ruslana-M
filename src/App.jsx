@@ -96,7 +96,7 @@ function App() {
             companies and enjoy working with people from different cultures. My foreign background has helped me to understand people
             better and have a new perspective on the situation.</p>
           <p>During the digital transformation from a legacy software to a new SAP application
-            I guided my team through this change process using agile best practices like Kanban, Lean methodology and Scrum. Recently I have finished a Frontend Developer Bootcamp in Munich practicing coding and agile  on real Projects. </p>
+            I guided my team through this change process using agile best practices like Kanban, Lean methodology and Scrum. <br /> Recently I have finished a Frontend Developer Bootcamp in Munich practicing coding and agile. </p>
           <p className='pt-2'>
             <b >My Achievements:</b>
             <ul className='list-disc  pl-4'>
@@ -113,8 +113,6 @@ function App() {
               <li>  knowledge sharing and collaboration;</li>
               <li>  meaningful work and relationships; </li>
               <li>  positive impact. </li>
-
-
             </ul>
           </p>
 
@@ -182,6 +180,7 @@ function App() {
           <p className="font-bold text-2xl pb-2">Contact</p>
           <p><b>Tel:</b> <span className='underline decoration-solid'>+49 151 543 151 39</span></p>
           <p><b>E-mail:</b>  <span className='underline decoration-solid'>r.myshelovka@me.com</span></p>
+          <p> <i>I speak Ukrainian, English, German </i> </p>
           <div className=' text-[28px] flex gap-2'>
           <h3><a href="https://www.linkedin.com/in/ruslana-mysholovka-stay-with-ukraine-1605bb141/" target="_blank"> <ion-icon name="logo-linkedin"></ion-icon></a></h3>
           <h3><a href="https://github.com/Ruslana-M" target="_blank"><ion-icon name="logo-github"></ion-icon></a></h3>
