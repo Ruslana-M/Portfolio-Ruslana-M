@@ -18,13 +18,13 @@ function App() {
     <div>
       <nav className="bg-[#add8e6] text-[20px]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
+          <div className="flex items-center justify-between md:justify-center h-16">
             <div className="flex items-center">
 
               {/* Navigation links */}
-              <div className="hidden md:block">
+              <div className="hidden md:flex md:gap-7 md:w-full">
                 {navigation.map((item) => (
-                  <a key={item.name} href={item.href} className="text-black px-3 py-2 hover:text-[#ed774f]  font-semibold">
+                  <a key={item.name} href={item.href} className="text-black py-2 hover:text-[#ed774f]  font-semibold flex items-center gap-1">
                     <ion-icon name={item.iconName}></ion-icon>
                     {item.name}
                   </a>
@@ -73,16 +73,16 @@ function App() {
         <div className="pl-4 pt-2"> <img src={profilePhoto} alt="Ruslana Photo" className="rounded-[20px] w-80" /></div>
 
         <div className="typewriter-text font-bold text-2xl pl-4 ">Hi I'm Ruslana.</div>
-        <section id="Aboutme" className="pt-4">
+        <section id="Aboutme" className="pt-4 pl-4">
           <div className="flex flex-col">
-            <p className="font-bold text-2xl pl-4">About Me</p>
+            <p className="font-bold text-2xl">About Me</p>
 
-            <div className="text-[16] pl-4">
+            <div>
 
-              <p>  Scrum Master | Frontend - Developer | Yoga Teacher</p>
-              <p className="text-[18] pt-4">
-                I like to help people to feel meaningful, organize projects that have social impact,
-                and designe things that people find easy to use.
+              <p className="text-[20px]">  Scrum Master | Frontend - Developer | Yoga Teacher</p>
+              <p className="pt-4">
+                I enjoy working with teams and helping them grow, organize projects that have social impact,
+                and designe things that make people happy.
                 <br />Besides I like yoga, mountains and reading. <br />Let me know if we could work on some valuable projects together.
               </p>
             </div>
@@ -110,8 +110,11 @@ function App() {
             <b >My Values:</b>
             <ul className='list-disc pl-4'>
               <li>  respect other people, cultures, ideas; </li>
-              <li>  readiness to share knowledge;</li>
-              <li>  meaningful work and meaningful relationships </li>
+              <li>  knowledge sharing and collaboration;</li>
+              <li>  meaningful work and relationships; </li>
+              <li>  positive impact. </li>
+
+
             </ul>
           </p>
 
